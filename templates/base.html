@@ -12,12 +12,12 @@
 
 <body>
     <nav>
-        <a href="#">HOME</a>
+        <a href="{{url_for('home')}}">HOME</a>
         <a href="#about">ABOUT</a>
         <a href="mailto:simrat.singh2019@vitstudent.ac.in" target="_blank" rel="noopener noreferrer">CONTACT</a>
         <div id="indicator"></div>
     </nav>
-    
+
     {% block content %}{% endblock %}
 
     <div id="about">
