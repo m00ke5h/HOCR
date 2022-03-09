@@ -226,6 +226,42 @@ h1 {
   text-align: center;
 }
 
+.content {
+  position: absolute;
+  top: 20%;
+}
+
+.image {
+  position: absolute;
+  background-color: #212121;
+  width: 30vw;
+  height: 70vh;
+  left: 10vw;
+   
+}
+
+.text {
+  position: absolute;
+  background-color: #212121;
+  width: 30vw;
+  height: 70vh;
+  left: 55vw;
+  overflow: scroll;
+}
+
+img {
+  display: block;
+  max-width:30vw;
+  max-height:70vh;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+.converted-text {
+  color: white;
+  padding: 5%;
+}
 /* .card {
   position: absolute;
   top: 170%;
