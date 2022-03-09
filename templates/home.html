@@ -1,0 +1,27 @@
+{% extends "base.html" %} {% block content %}
+
+<div class="form">
+    <form action="upload" method="POST">
+        <input type="file" multiple>
+        <p>Drag your files here or click in this area.</p>
+        <select>
+            <option value="#0">Choose the language</option>
+            <option value="#1">Assamese</option>
+            <option value="#2">Bangla</option>
+            <option value="#3">English</option>
+            <option value="#4">Gujrati</option>
+            <option value="#5">Hindi</option>
+            <option value="#6">Kannada</option>
+            <option value="#7">Malayalam</option>
+            <option value="#8">Marathi</option>
+            <option value="#9">Nepali</option>
+            <option value="#10">Punjabi</option>
+            <option value="#11">Tamil</option>
+            <option value="#12">Telugu</option>
+            <option value="#13">Urdu</option>
+        </select>
+        <button type="submit">Convert</button>
+    </form>
+</div>
+
+{% endblock %}
